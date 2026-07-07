@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": {{ page.url | absolute_url | jsonify }}
+      },
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page.description | default: page.excerpt | strip_newlines | jsonify }},
+      {% if page.image %}
+      "image": {{ page.image | absolute_url | jsonify }},
+      {% endif %}
+      "author": {
+        "@type": "Person",
+        "name": {{ site.title | jsonify }}
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": {{ site.title | jsonify }},
+        "logo": {
+          "@type": "ImageObject",
+          "url": {{ '/assets/logo.svg' | absolute_url | jsonify }}
+        }
+      },
+      "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+      "dateModified": {{ page.date | date_to_xmlschema | jsonify }}
+    }
+    </script>
+    <div class="container">
+      <div class="page-grid">
+        <aside class="side-ad side-ad-left">
+          <div class="ad-label">Ad Sense</div>
+          <p>Desktop ad space for article page display ads.</p>
+        </aside>
+        <main class="main-content">
+          <div class="brand-bar post-brand-bar">
+            <a href="{{ '/' | relative_url }}" class="brand-link">
+              <img src="{{ '/assets/logo.svg' | relative_url }}" alt="Nomad logo" class="brand-logo">
+              <div>
+                <div class="brand-name">Nomad</div>
+                <div class="brand-tag">Trending tech facts, AI insights, and digital stories</div>
+              </div>
+            </a>
+            <nav class="site-nav">
+              <a href="{{ '/' | relative_url }}">Home</a>
+              <a href="{{ '/#latest' | relative_url }}">Latest</a>
+              <a href="{{ '/#about' | relative_url }}">About</a>
+              <a href="{{ '/#contact' | relative_url }}">Contact</a>
+            </nav>
+          </div>
+          <article class="post-article">
+            {% if page.image %}
+              <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+            {% endif %}
+            <h1>{{ page.title }}</h1>
+            <div class="post-meta">{{ page.date | date: "%B %d, %Y" }} • {{ page.categories | array_to_sentence_string }}</div>
+            <div class="post-content">
+              {{ content }}
+            </div>
+
+            <section class="related-posts">
+              <h2>Related posts</h2>
+              <div class="related-list">
+                {% assign related_count = 0 %}
+                {% for post in site.posts %}
+                  {% if post.url != page.url %}
+                    {% assign shared = false %}
+                    {% for tag in page.tags %}
+                      {% if post.tags contains tag %}
+                        {% assign shared = true %}
+                      {% endif %}
+                    {% endfor %}
+                    {% if shared and related_count < 3 %}
+                      <article class="related-item">
+                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                        <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 110 }}</p>
+                      </article>
+                      {% assign related_count = related_count | plus: 1 %}
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+                {% if related_count == 0 %}
+                  <article class="related-item">
+                    <a href="{{ '/' | relative_url }}">Explore the latest stories on Nomad</a>
+                    <p>Check the homepage for new tech and AI posts that build your personal knowledge base.</p>
+                  </article>
+                {% endif %}
+              </div>
+            </section>
+
+            <div class="ad-slot ad-slot-inline">Ad placeholder</div>
+            <footer class="post-footer">
+              <p>Published by {{ site.title }} • <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+            </footer>
+          </article>
+        </main>
+        <aside class="side-ad side-ad-right">
+          <div class="ad-label">Ad Sense</div>
+          <p>Responsive ad space for the article page.</p>
+        </aside>
+      </div>
+    </div>
+  </body>
+</html>

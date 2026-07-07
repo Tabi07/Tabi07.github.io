@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <div class="container">
+      <div class="page-grid">
+        <aside class="side-ad side-ad-left">
+          <div class="ad-label">Ad Sense</div>
+          <p>Desktop ad space for responsive Google AdSense units.</p>
+        </aside>
+        <main class="main-content">
+          <header class="site-header">
+            <div class="brand-bar">
+              <a href="{{ '/' | relative_url }}" class="brand-link">
+                <img src="{{ '/assets/logo.svg' | relative_url }}" alt="Nomad logo" class="brand-logo">
+                <div>
+                  <div class="brand-name">Nomad</div>
+                  <div class="brand-tag">Tech facts, AI, and trending insights</div>
+                </div>
+              </a>
+              <nav class="site-nav">
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="{{ '/#latest' | relative_url }}">Latest</a>
+                <a href="{{ '/#about' | relative_url }}">About</a>
+                <a href="{{ '/#contact' | relative_url }}">Contact</a>
+              </nav>
+            </div>
+
+            <div class="site-hero">
+              <div class="hero-card">
+                <h1 class="hero-title">Wander the edges of what's next.</h1>
+                <p class="hero-sub">"Nomad is where AI, technology, and human curiosity meet. No fluff, no filler — just sharp thinking for people who want to stay ahead of the curve."</p>
+                <a class="cta" href="#latest">Read the latest</a>
+              </div>
+              <div>
+                <img src="{{ '/assets/hero-image.svg' | relative_url }}" alt="Nomad hero image" class="featured-image">
+              </div>
+            </div>
+          </header>
+
+      <section id="latest">
+        <h2>Latest</h2>
+        <div class="ad-slot ad-slot-top">Ad space — optimized for Google AdSense</div>
+        <div class="posts">
+          {% for post in site.posts limit:5 %}
+            <article class="post-card">
+              <div class="post-meta">{{ post.date | date: "%B %d, %Y" }} • {{ post.categories | array_to_sentence_string }}</div>
+              <h3 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+              <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+            </article>
+          {% endfor %}
+        </div>
+      </section>
+      <section id="about" class="info-section">
+        <h2>About Nomad</h2>
+        <p>Nomad is a modern tech blog for learners, creators, and anyone who wants daily takeaways on AI, trending tech facts, and digital innovation.</p>
+      </section>
+      <section id="contact" class="info-section">
+        <h2>Contact</h2>
+        <p>Questions, collaborations, or speaking inquiries? Reach out at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+      </section>
+      <footer class="site-footer">
+        <div class="footer-top">
+          <a href="{{ '/' | relative_url }}" class="footer-logo">Nomad</a>
+          <nav class="footer-links">
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="{{ '/#about' | relative_url }}">About</a>
+            <a href="{{ '/#contact' | relative_url }}">Contact</a>
+          </nav>
+        </div>
+        <div class="footer-copy">
+          <p>© 2026 Nomad. All rights reserved.</p>
+        </div>
+      </footer>
+        </main>
+        <aside class="side-ad side-ad-right">
+          <div class="ad-label">Ad Sense</div>
+          <p>Desktop ad space for responsive Google AdSense units.</p>
+        </aside>
+      </div>
+    </div>
+  </body>
+</html>
