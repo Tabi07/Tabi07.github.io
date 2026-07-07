@@ -2,7 +2,7 @@
 layout: post
 title: "AI: The New Frontier — An Introduction"
 description: "A practical AI introduction for beginners and curious builders, covering AI trends, responsible AI, and how to start learning artificial intelligence today."
-date: 2026-07-07 08:00:00 +0000
+date: 2026-07-05 08:00:00 +0000
 categories: [ai, introduction]
 tags: [ai, artificial intelligence, ai trends, machine learning, tutorials]
 image: /assets/ai-image.svg

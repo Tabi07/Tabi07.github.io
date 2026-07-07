@@ -2,13 +2,13 @@
 layout: post
 title: "GTA 6 Pre-Order Guide: Every Edition, Bonus, and Where to Buy (Full 2026 Breakdown)"
 description: "Everything confirmed about GTA 6 pre-orders: pre order bonus, Vintage Vice City Pack, pre order price, and the Standard vs Ultimate Edition choice."
-date: 2026-07-07 08:00:00 +0500
+date: 2026-07-05 08:00:00 +0500
 image: /assets/gta6.svg
 categories: [preorders]
 tags: [gta6, gaming, rockstar]
 ---
 
-*Last updated: July 7, 2026.*
+*Last updated: July 5, 2026.*
 
 Grand Theft Auto VI launches on **November 19, 2026**, and pre-orders have been live since June 25. In this GTA 6 pre order guide, we break down the GTA 6 pre order bonus, the GTA 6 Vintage Vice City Pack, the GTA 6 pre order price, and the Standard vs Ultimate Edition comparison so you can buy with confidence.
 

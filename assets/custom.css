@@ -23,6 +23,11 @@ a{color:var(--accent);text-decoration:none}
 .post-card{background:var(--card);padding:26px;border-radius:20px;transition:transform .2s,box-shadow .2s;border:1px solid rgba(255,255,255,0.05)}
 .post-card:hover{transform:translateY(-2px);box-shadow:0 24px 55px rgba(3,8,20,0.45)}
 .post-title{font-size:20px;margin:0 0 8px 0}
+.pagination{display:flex;justify-content:center;align-items:center;gap:10px;margin:28px 0;padding:0;flex-wrap:wrap}
+.pagination-page,.pagination-arrow{display:inline-flex;justify-content:center;align-items:center;min-width:44px;height:44px;padding:0 14px;border-radius:14px;border:1px solid rgba(255,255,255,0.08);color:var(--text);background:rgba(255,255,255,0.03);font-weight:600;transition:background .2s,border-color .2s}
+.pagination-page:hover,.pagination-arrow:hover{background:rgba(124,58,237,0.18);border-color:rgba(124,58,237,0.35);color:white}
+.pagination-page.current{background:var(--accent);color:white;border-color:var(--accent)}
+.pagination-arrow.disabled{opacity:.4;pointer-events:none}
 .post-title a{color:white}
 .post-excerpt{color:var(--muted);margin:0}
 .post-meta{color:var(--muted);font-size:13px;margin-bottom:10px}
