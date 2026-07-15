@@ -4,15 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Welcome to **Nomad**, a modern digital hub dedicated to exploring the fast-moving frontiers of technology, artificial intelligence, and digital innovation.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Our mission is simple: to cut through the noise and deliver sharp, high-quality, and actionable insights. Whether you are a software developer, a product builder, or someone curious about how AI is reshaping our world, Nomad provides concise analyses, hands-on guides, and thoughtful commentary to help you stay informed.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+What we cover:
 
+- **Artificial Intelligence:** Practical breakdowns of new models, prompt engineering techniques, and ethical considerations for deployment.
+- **Tech Trends:** Analysis of hardware and software shifts that matter to builders and decision-makers.
+- **Digital Innovation:** Tutorials, tools, and ideas for creators building better products.
 
-[jekyll-organization]: https://github.com/jekyll
+Thank you for visiting Nomad — we publish with a focus on clarity, usefulness, and respectful critique. If you'd like to get in touch, visit the Contact page.

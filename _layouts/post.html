@@ -33,9 +33,13 @@
     </script>
     <div class="container">
       <div class="page-grid">
-        <aside class="side-ad side-ad-left">
-          <div class="ad-label">Ad Sense</div>
-          <p>Desktop ad space for article page display ads.</p>
+        <aside class="sidebar side-left">
+          <h3>Recent Posts</h3>
+          <ul class="recent-posts">
+            {% for post in site.posts limit:5 %}
+              <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
         </aside>
         <main class="main-content">
           <div class="brand-bar post-brand-bar">
@@ -49,8 +53,9 @@
             <nav class="site-nav">
               <a href="{{ '/' | relative_url }}">Home</a>
               <a href="{{ '/#latest' | relative_url }}">Latest</a>
-              <a href="{{ '/#about' | relative_url }}">About</a>
-              <a href="{{ '/#contact' | relative_url }}">Contact</a>
+              <a href="{{ '/about/' | relative_url }}">About</a>
+              <a href="{{ '/contact/' | relative_url }}">Contact</a>
+              <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
             </nav>
           </div>
           <article class="post-article">
@@ -93,15 +98,31 @@
               </div>
             </section>
 
-            <div class="ad-slot ad-slot-inline">Ad placeholder</div>
+            <!-- inline ad removed until AdSense approval; keep content focused on the article -->
             <footer class="post-footer">
               <p>Published by {{ site.title }} • <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
             </footer>
           </article>
+
+          <footer class="site-footer">
+            <div class="footer-top">
+              <a href="{{ '/' | relative_url }}" class="footer-logo">Nomad</a>
+              <nav class="footer-links">
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="{{ '/about/' | relative_url }}">About</a>
+                <a href="{{ '/contact/' | relative_url }}">Contact</a>
+                <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+              </nav>
+            </div>
+            <div class="footer-copy">
+              <p>© {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+            </div>
+          </footer>
         </main>
-        <aside class="side-ad side-ad-right">
-          <div class="ad-label">Ad Sense</div>
-          <p>Responsive ad space for the article page.</p>
+        </main>
+        <aside class="sidebar side-right">
+          <h3>About Nomad</h3>
+          <p>Nomad covers AI, tech trends, and practical guides for curious builders. <a href="{{ '/about/' | relative_url }}">Learn more</a></p>
         </aside>
       </div>
     </div>
