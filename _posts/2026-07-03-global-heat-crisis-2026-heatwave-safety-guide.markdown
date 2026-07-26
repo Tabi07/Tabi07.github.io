@@ -2,13 +2,13 @@
 layout: post
 title: "A Global Heat Crisis, Not Just Europe: 2026 Heatwave Safety Guide"
 description: "Extreme heat is spreading across the globe in 2026. Learn why it's happening, how to spot heat-related illness, and how to stay safe in the world's hottest summer."
-date: 2026-07-07 11:00:00 +0000
+date: 2026-07-03 11:00:00 +0000
 categories: [environment, climate]
 tags: [heatwave, climate-change, extreme-heat, global-warming, 2026]
 image: /assets/heatwave.svg
 ---
 
-*Last updated: July 9, 2026.*
+*Last updated: July 3, 2026.*
 
 2026 has turned into one of the most intense global heat years on record, with extreme temperatures hitting Europe, the Middle East, South Asia, North America, and parts of Africa and Southeast Asia simultaneously. Scientists point to a combination of human-caused climate change, a strengthening El Niño, record-warm oceans, and stalled high-pressure "heat dome" patterns acting together — not just one bad summer.
 

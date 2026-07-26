@@ -31,6 +31,12 @@ a{color:var(--accent);text-decoration:none}
 .post-title a{color:white}
 .post-excerpt{color:var(--muted);margin:0}
 .post-meta{color:var(--muted);font-size:13px;margin-bottom:10px}
+.post-author{margin:16px 0 24px;padding:18px 20px;border-radius:16px;background:linear-gradient(135deg,rgba(124,58,237,0.16),rgba(255,255,255,0.04));border:1px solid rgba(124,58,237,0.22);box-shadow:inset 0 1px 0 rgba(255,255,255,0.04)}
+.post-author strong{display:block;color:white;font-size:15px;margin-bottom:6px}
+.post-author p{margin:0;color:var(--muted);line-height:1.6;font-size:14px}
+.about-author-card{margin:20px 0 24px;padding:18px 20px;border-radius:16px;background:linear-gradient(135deg,rgba(124,58,237,0.16),rgba(255,255,255,0.04));border:1px solid rgba(124,58,237,0.22);box-shadow:inset 0 1px 0 rgba(255,255,255,0.04)}
+.about-author-card strong{display:block;color:white;font-size:15px;margin-bottom:6px}
+.about-author-card p{margin:0;color:var(--muted);line-height:1.7;font-size:15px}
 .ad-slot{margin:26px 0;padding:22px;border-radius:18px;color:var(--muted);text-align:center;font-size:14px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06)}
 .info-section{background:var(--card-strong);padding:32px 28px;border-radius:22px;margin:24px 0;border:1px solid rgba(255,255,255,0.06);box-shadow:0 20px 55px rgba(3,8,20,0.18)}
 .info-section h2{margin-top:0;color:white}
