@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Your Website Is About to Talk to AI Agents — Whether You've Prepared or Not (WebMCP Explained)"
-date: 2026-07-26 00:00:00 +0000
+date: 2026-07-28 00:00:00 +0000
 categories: [ai, agents]
 tags: [webmcp, mcp, ai-agents, web-standards]
 image: /assets/webmcp.png
