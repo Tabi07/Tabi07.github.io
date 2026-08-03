@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Your AI Is About to Start Shopping For You — And Retailers Are Already Suing to Stop It"
+description: "Agentic commerce is changing online shopping as AI agents begin to browse, compare, and buy on your behalf — and retailers are racing to respond."
 date: 2026-07-29 00:00:00 +0000
 categories: [ai, commerce]
 tags: [agentic-commerce, ai-agents, payments, ecommerce]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Does Your AI Have Feelings? Inside the Quiet, Serious Research Into AI 'Model Welfare'"
+description: "A clear explanation of AI model welfare research, why top labs are studying it, and what it could mean for safety, ethics, and the future of AI systems."
 date: 2026-07-26 00:00:00 +0000
 categories: [ai, ethics]
 tags: [ai-welfare, model-welfare, ai-consciousness, anthropic]

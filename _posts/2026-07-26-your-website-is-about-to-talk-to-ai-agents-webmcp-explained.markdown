@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Your Website Is About to Talk to AI Agents — Whether You've Prepared or Not (WebMCP Explained)"
+description: "WebMCP is a browser-native protocol that lets websites expose tools to AI agents directly. Learn why it matters for the future of the web."
 date: 2026-07-28 00:00:00 +0000
 categories: [ai, agents]
 tags: [webmcp, mcp, ai-agents, web-standards]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Shadow AI: The Software Nobody Approved Is Already Running Your Company"
+description: "Shadow AI is spreading across companies as employees use unapproved tools that create serious governance, privacy, and security risks."
 date: 2026-07-31 00:00:00 +0000
 categories: [ai, software]
 tags: [shadow-ai, enterprise-software, ai-governance, security]
