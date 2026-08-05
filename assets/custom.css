@@ -66,3 +66,5 @@ a{color:var(--accent);text-decoration:none}
 .side-ad p{margin:0;line-height:1.65}
 .main-content{width:100%}
 @media(max-width:1000px){.page-grid{grid-template-columns:1fr;}.side-ad{display:none}.container{padding:28px 16px}.footer-grid{grid-template-columns:1fr;}.site-nav{gap:16px}.brand-bar{flex-direction:column;align-items:flex-start}}
+
+
