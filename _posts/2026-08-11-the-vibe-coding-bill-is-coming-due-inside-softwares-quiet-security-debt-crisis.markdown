@@ -2,7 +2,7 @@
 layout: post
 title: "The Vibe Coding Bill Is Coming Due: Inside Software's Quiet Security Debt Crisis"
 description: "AI-generated code is getting written faster than ever, but security validation is still trapped in a separate, optional step — and the debt is compounding."
-date: 2026-08-04 00:00:00 +0000
+date: 2026-08-11 00:00:00 +0000
 categories: [ai, software]
 tags: [vibe-coding, code-security, technical-debt, software-development]
 image: /assets/p22.png
