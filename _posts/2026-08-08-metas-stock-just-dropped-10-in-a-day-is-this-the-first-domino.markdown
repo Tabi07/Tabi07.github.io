@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Meta's Stock Just Dropped 10% in a Day — Is This the First Domino?"
-description: "Meta's earnings stunned investors with a 91% free cash flow collapse, and the timing makes it feel like the AI spending story is no longer isolated."
+title: "The Real Cost of Winning the AI Race Is Showing Up in Meta's Cash Flow"
+description: "Meta's earnings exposed the real cost of the AI buildout: a 91% free cash flow collapse that is now looking less like a one-off and more like the price of staying in the race."
 date: 2026-08-08 00:00:00 +0000
 categories: [ai, technology]
 tags: [meta, ai-capex, big-tech-earnings, ai-bubble]
