@@ -4,19 +4,22 @@ title: About
 permalink: /about/
 ---
 
-Welcome to **Nomad**, a modern digital hub dedicated to exploring the fast-moving frontiers of technology, artificial intelligence, and digital innovation.
+Welcome to **Nomad** — a digital publication focused on AI, software, technology trends, and the ideas shaping how people build, work, and live in a more automated world.
 
 <div class="about-author-card">
   <strong>About the writer</strong>
-  <p>Nomad is written by <strong>Mehtab Wazir</strong>, a software engineer with a passion for writing about technology, software, and the ideas shaping the digital world. He writes to make complex topics clearer, more practical, and more engaging for curious readers.</p>
+  <p><strong>Mehtab Wazir</strong> is a software engineer and writer focused on AI, product thinking, and the real-world impact of emerging technology. He writes to make complex systems understandable, practical, and relevant for builders, operators, and curious readers who want to understand what is changing and why it matters.</p>
+  <p><a href="{{ '/author/' | relative_url }}">Read the full author profile</a> · <a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
 </div>
 
-Our mission is simple: to cut through the noise and deliver sharp, high-quality, and actionable insights. Whether you are a software developer, a product builder, or someone curious about how AI is reshaping our world, Nomad provides concise analyses, hands-on guides, and thoughtful commentary to help you stay informed.
+Our mission is to help readers make sense of fast-moving trends without the hype cycle. Nomad covers the technology decisions, tools, and strategic shifts that actually matter — especially around AI, software engineering, digital identity, and the human systems behind the code.
 
 What we cover:
 
-- **Artificial Intelligence:** Practical breakdowns of new models, prompt engineering techniques, and ethical considerations for deployment.
-- **Tech Trends:** Analysis of hardware and software shifts that matter to builders and decision-makers.
-- **Digital Innovation:** Tutorials, tools, and ideas for creators building better products.
+- **Artificial Intelligence:** models, agents, adoption trends, governance, and the practical consequences of AI in the real world.
+- **Software & Product:** engineering tradeoffs, security debt, technical quality, and how teams build resilient systems.
+- **Digital Systems & Society:** internet behavior, trust, identity, and the side effects of automation at scale.
 
-Thank you for visiting Nomad — we publish with a focus on clarity, usefulness, and respectful critique. If you'd like to get in touch, visit the Contact page.
+Nomad is not a generic content farm. It is a focused technology publication built around clarity, evidence, and thoughtful analysis. We aim to publish work that is useful, credible, and grounded in real developments rather than recycled hype.
+
+Thank you for visiting Nomad — if you'd like to get in touch, visit the <a href="{{ '/contact/' | relative_url }}">Contact page</a>.

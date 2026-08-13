@@ -19,11 +19,15 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Nomad
+author: Mehtab Wazir
+author_bio: >-
+  Mehtab Wazir is a software engineer and writer focused on AI, software,
+  digital systems, and the ideas shaping how technology changes everyday life.
 email: mehtabwazier@gmail.com
+linkedin: "https://www.linkedin.com/in/mehtab-wazir/"
 description: >-
-  Nomad — Trending tech facts, AI insights, and practical tutorials. Short
-  essays, hands-on guides, and curated resources for curious builders and
-  lifelong learners.
+  Nomad — AI, software, and technology analysis for curious builders. Sharp
+  essays, product thinking, and practical insights at the edge of modern digital life.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tabi07.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb

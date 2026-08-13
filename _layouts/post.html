@@ -65,8 +65,8 @@
             <h1>{{ page.title }}</h1>
             <div class="post-meta">{{ page.date | date: "%B %d, %Y" }} • {{ page.categories | array_to_sentence_string }}</div>
             <div class="post-author">
-              <strong>By Mehtab Wazir</strong>
-              <p>Mehtab Wazir is a software engineer with a passion for writing about technology, software, and the ideas shaping the digital world.</p>
+              <strong>By <a href="{{ '/author/' | relative_url }}">Mehtab Wazir</a></strong>
+              <p>Mehtab Wazir is a software engineer and writer focused on AI, software, and the real-world impact of digital systems. <a href="{{ '/author/' | relative_url }}">Read the full author profile</a>.</p>
             </div>
             <div class="post-content">
               {{ content }}

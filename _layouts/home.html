@@ -46,42 +46,16 @@
       <section id="latest">
         <h2>Latest</h2>
         <div class="posts">
-          {% for post in paginator.posts %}
-            <article class="post-card">
-              <div class="post-meta">{{ post.date | date: "%B %d, %Y" }} • {{ post.categories | array_to_sentence_string }}</div>
-              <h3 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-              <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
-            </article>
+          {% for post in site.posts %}
+            {% if post.categories contains 'ai' or post.categories contains 'technology' or post.categories contains 'software' %}
+              <article class="post-card">
+                <div class="post-meta">{{ post.date | date: "%B %d, %Y" }} • {{ post.categories | array_to_sentence_string }}</div>
+                <h3 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+                <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+              </article>
+            {% endif %}
           {% endfor %}
         </div>
-
-        {% if paginator.total_pages > 1 %}
-          <nav class="pagination" role="navigation" aria-label="Pagination">
-            {% if paginator.previous_page %}
-              <a class="pagination-arrow" href="{{ paginator.previous_page_path | relative_url }}" aria-label="Previous page">←</a>
-            {% else %}
-              <span class="pagination-arrow disabled">←</span>
-            {% endif %}
-
-            {% for page in (1..paginator.total_pages) %}
-              {% if page == paginator.page %}
-                <span class="pagination-page current">{{ page }}</span>
-              {% else %}
-                {% if page == 1 %}
-                  <a class="pagination-page" href="{{ '/' | relative_url }}">{{ page }}</a>
-                {% else %}
-                  <a class="pagination-page" href="{{ paginator.paginate_path | replace: ':num', page | relative_url }}">{{ page }}</a>
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-
-            {% if paginator.next_page %}
-              <a class="pagination-arrow" href="{{ paginator.next_page_path | relative_url }}" aria-label="Next page">→</a>
-            {% else %}
-              <span class="pagination-arrow disabled">→</span>
-            {% endif %}
-          </nav>
-        {% endif %}
       </section>
       <!-- About and Contact are now standalone pages (see /about/ and /contact/) -->
       <footer class="site-footer">
