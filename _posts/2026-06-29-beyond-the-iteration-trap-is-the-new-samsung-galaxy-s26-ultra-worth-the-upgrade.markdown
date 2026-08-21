@@ -20,7 +20,6 @@ If you are holding the Galaxy S25 Ultra, or deciding whether to grab a discounte
 
 When Samsung introduced Titanium to the Galaxy S25 Ultra, it was hailed as a massive durability leap. However, the S26 Ultra makes an unexpected U-turn back to what Samsung brands as **Armor Aluminum**.
 
-```
 [S25 Ultra] ---> Titanium Frame (218g) ---> Sharp, Boxy Corners
 [S26 Ultra] ---> Armor Aluminum (214g) ---> Sleek, Rounded Edges (-0.3mm thinner)
 ```
@@ -28,8 +27,52 @@ When Samsung introduced Titanium to the Galaxy S25 Ultra, it was hailed as a mas
 Why the regression? It’s entirely thermal and ergonomic. High-grade aluminum has noticeably better heat dissipation properties than titanium, which is vital for housing the intense thermal demands of next-gen mobile processing blocks.
 
 Furthermore, the S26 Ultra drops the sharp, boxy corners of the S25 Ultra in favor of slightly rounded, ergonomic edges that align cleanly with the rest of the S26 lineup. It weighs slightly less at 214 grams and is a noticeable $0.3\text{ mm}$ thinner, making it vastly more comfortable to hold for extended deep-work sessions.
-
 ## 2. World's First "Privacy Display" Architecture
+---
+layout: post
+title: "Three Hundred Towns Just Told AI to Build Somewhere Else"
+description: "AI data centers are triggering a fast-growing wave of local opposition across the US, from moratoriums to canceled billion-dollar projects, as communities push back on water and power use."
+date: 2026-06-29 12:00:00 +0000
+categories: [ai, technology]
+tags: [data-centers, ai-infrastructure, energy, community-backlash]
+image: /assets/trap.png
+---
+
+On July 14, 2026, New York Governor Kathy Hochul signed an executive order creating the nation's first statewide moratorium on new hyperscale data centers. It wasn't an isolated move. By that point, according to a count by The Information, more than 300 cities, towns, and counties across the country — from Monterey Park, California to DeKalb County, Georgia — had already placed bans or moratoriums of their own. The AI industry's infrastructure buildout has run headlong into a resistance movement that barely existed two years ago, and it's now large enough to actually stop projects, not just slow them down.
+
+### The Numbers Behind the Pushback
+
+The scale of disruption is no longer marginal. Data Center Watch tracked at least 75 major projects worth more than $130 billion delayed or canceled in just the first three months of 2026 alone, due in part to organized local opposition. A separate review of public records found at least 25 projects canceled outright in 2025 in direct response to community objections, and earlier tracking from Data Center Watch found $98 billion in projects blocked or delayed between March and June 2025 — meaning the pace of opposition-driven disruption has been accelerating, not leveling off.
+
+Public sentiment backs up why this is happening at scale: a recent Gallup poll found seven out of ten Americans oppose data centers being built near them, with water use cited as a top concern. That's not a fringe NIMBY position anymore — it's a clear national majority.
+
+### Why Water Is the Flashpoint
+
+The physical resource demands driving this backlash are genuinely large. A mid-sized data center consumes roughly as much water as a small town, and larger facilities can require up to 5 million gallons a day. In water-stressed regions — the American West in particular — that cooling demand competes directly with agricultural and residential water use, and residents in those areas describe dried-up wells and rising municipal water costs tied directly to nearby facilities.
+
+Ireland offers a preview of what happens when this scales further than communities can absorb: data centers there recently consumed more than 20% of the country's metered electricity, prompting the national grid to effectively pause new data center approvals around Dublin entirely, to protect the broader power system. It's worth noting the tradeoff isn't as simple as "just use less water" — data centers can be cooled with minimal water use, but doing so requires substantially more energy instead, meaning operators are often choosing which scarce resource to strain rather than avoiding strain altogether.
+
+### The Energy Side Is Just as Stark
+
+A January 2026 report from on-site energy company Bloom Energy projects that total U.S. data center energy demand will nearly double between 2025 and 2028, climbing from 80 to 150 gigawatts — equivalent to adding a country with Spain's entire energy needs within three years. That demand is already showing up on household bills: in some regions, electricity prices have risen 20–30% in ways directly attributable to data center demand, according to reporting on the backlash, and residents describe watching public funds get offered as incentives to attract these projects while their own utility costs climb in parallel.
+
+### This Has Become a Genuine Political Issue, Not Just a Local One
+
+Lawmakers have taken notice at scale: more than 30 states have introduced upwards of 300 bills in 2026 addressing data centers — moratoriums, tax incentives, mandatory water-usage reporting, and broader energy policy. New York state senator Liz Krueger, co-author of that state's moratorium bill, framed the stakes in blunt terms: without a pause to develop stronger policy, the state risks getting caught inside a bubble that eventually bursts and leaves ordinary utility customers holding the bill.
+
+What's notable is how the opposition is cutting across the usual political lines. Reporting from Virginia — the world's largest data center hub, hosting roughly 13% of the globe's data centers as of 2023 — describes local activists explicitly rejecting a partisan framing of the fight. One longtime Virginia organizer, who has spent a decade opposing data center expansion near her home, put it directly: this was never a red-versus-blue issue, it's people who live somewhere versus people who want to industrialize where they live. That framing appears to be holding up heading into the 2026 midterms, with candidates in both parties increasingly treating data center opposition as something close to a prerequisite for running competitively in affected districts.
+
+### The Industry's Response So Far
+
+Tech companies aren't standing still on this. A number of executives have signed onto a White House-sponsored pledge specifically aimed at limiting the effect of AI infrastructure buildout on residential electric bills — a direct acknowledgment that the utility-cost angle of this backlash has become politically serious enough to require a public response, not just private lobbying. Whether that pledge translates into measurable relief for the households already seeing higher bills remains to be seen, and it hasn't slowed the pace of new moratorium bills moving through state legislatures.
+
+Brookings has framed the stakes for the industry starkly: the think tank's own analysis warns that unresolved local resistance could genuinely stall the buildout of AI infrastructure nationally if it isn't addressed directly, rather than simply pushed through over community objections project by project.
+
+### What This Actually Means for AI's Trajectory
+
+It's worth being precise about what this backlash is and isn't. It isn't opposition to AI as a technology in the way some earlier tech backlashes have been broadly anti-innovation — most of the organizing described in this coverage centers on concrete, local, physical impacts: noise, water tables, air quality from diesel backup generators, and electricity bills, not abstract objections to what AI is or does. That distinction matters, because it means the backlash isn't obviously solvable by better PR about AI's benefits. It's a resource-allocation and infrastructure-siting problem, and those tend to get resolved through zoning boards, utility commissions, and state legislatures — exactly where this fight has now firmly relocated.
+
+The AI industry's spending trajectory assumes continued, large-scale data center expansion for years to come. What's becoming clear through 2026 is that the physical world hosting that expansion has its own limits and its own political process, and neither is moving at the pace the industry's capital expenditure plans assume. Three hundred local moratorium decisions, made independently across the country by people mostly reacting to their own water bills and utility rates rather than any coordinated national campaign, may end up shaping where and how fast AI infrastructure actually gets built as much as any single company's capex guidance does.
 
 While both generations offer a massive, crisp 6.9-inch display, the S26 Ultra introduces a massive security upgrade: **Hardware-level Privacy Display**.
 
